@@ -1,0 +1,18 @@
+{
+	"cSpell.language": "en,pl,pl-PL",
+	"sqltools.connections": [
+		{
+			"mysqlOptions": {
+				"authProtocol": "default"
+			},
+			"previewLimit": 50,
+			"server": "localhost",
+			"port": 3306,
+			"driver": "MySQL",
+			"name": "L",
+			"database": "szkola",
+			"username": "root",
+			"password": ""
+		}
+	]
+}
