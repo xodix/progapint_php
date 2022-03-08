@@ -1,0 +1,45 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background: rgb(7, 7, 80);
+  color: white;
+  text-align: center;
+}
+
+nav {
+  background: rgb(91, 146, 148);
+  padding: 20px;
+  margin: 20px auto 50px auto;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-item {
+  background-color: rgb(121, 196, 199);
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+iframe {
+  width: 80%;
+  border: 1px dotted white;
+  border-radius: 3px;
+  padding: 20px;
+  margin: auto;
+  display: block;
+  height: 50vh;
+}
+
+table {
+  margin: auto;
+  text-align: center;
+}
+
+.one,
+li {
+  margin: 10px 0;
+}

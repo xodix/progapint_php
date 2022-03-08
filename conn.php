@@ -27,7 +27,9 @@ function query(string $query, array $params = null): array
 	$q = $conn->query($query);
 
 	if (!$q) {
-		echo "Query: " . mysqli_error($conn);
+		echo "Query: " . mysqli_error($conn) . "<br><br>";
+		echo $query;
+		exit();
 	}
 
 	$res = $q->fetch_all(MYSQLI_ASSOC);
