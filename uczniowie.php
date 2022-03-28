@@ -10,12 +10,12 @@
 
 <body>
 	<h2>Wybierz klasę</h2>
-	<a href="http://localhost/progapint/uczniowie.php?klasa=1A">1A</a>
-	<a href="http://localhost/progapint/uczniowie.php?klasa=1B">1B</a>
-	<a href="http://localhost/progapint/uczniowie.php?klasa=2A">2A</a>
-	<a href="http://localhost/progapint/uczniowie.php?klasa=2B">2B</a>
-	<a href="http://localhost/progapint/uczniowie.php?klasa=3A">3A</a>
-	<a href="http://localhost/progapint/uczniowie.php?klasa=3B">3B</a>
+	<a href="http://localhost/progapint_php/uczniowie.php?klasa=1A">1A</a>
+	<a href="http://localhost/progapint_php/uczniowie.php?klasa=1B">1B</a>
+	<a href="http://localhost/progapint_php/uczniowie.php?klasa=2A">2A</a>
+	<a href="http://localhost/progapint_php/uczniowie.php?klasa=2B">2B</a>
+	<a href="http://localhost/progapint_php/uczniowie.php?klasa=3A">3A</a>
+	<a href="http://localhost/progapint_php/uczniowie.php?klasa=3B">3B</a>
 	<table>
 
 		<thead>

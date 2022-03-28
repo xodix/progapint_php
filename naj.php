@@ -13,7 +13,7 @@
 
 		<?php
 		require_once("conn.php");
-		$res = query("SELECT * FROM `uczniowie` WHERE `srednia`>5 ORDER BY `srednia`");
+		$res = query("SELECT * FROM `uczniowie` WHERE `srednia`>5 ORDER BY `srednia` DESC");
 
 		for ($i = 0; $i < count($res); $i++) {
 			echo "<li>";

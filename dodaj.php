@@ -12,11 +12,11 @@
 	<form action="add.php" method="POST">
 		<div class="one">
 			<label for="Imie">Imię:</label>
-			<input required type="text">
+			<input required type="text" name="Imie">
 		</div>
 		<div class="one">
 			<label for="Nazwisko">Nazwisko:</label>
-			<input required type="text">
+			<input required type="text" name="Nazwisko">
 		</div>
 		<div class="one">
 			<label for="Klasa">Klasa:</label>
@@ -31,11 +31,11 @@
 		</div>
 		<div class="one">
 			<label for="Srednia">Średnia:</label>
-			<input required type="number" step="any">
+			<input required type="number" min="1" max="6" step="any" name="Srednia">
 		</div>
 		<div class="one">
 			<label for="Orzeczenie">Posiada orzeczenie:</label>
-			<input type="checkbox">
+			<input type="checkbox" name="Orzeczenie">
 		</div>
 		<button>Wprowadź</button>
 	</form>

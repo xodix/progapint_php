@@ -32,6 +32,10 @@ function query(string $query, array $params = null): array
 		exit();
 	}
 
+	if (is_bool($q)) {
+		return [];
+	}
+
 	$res = $q->fetch_all(MYSQLI_ASSOC);
 
 	if ($res) {
