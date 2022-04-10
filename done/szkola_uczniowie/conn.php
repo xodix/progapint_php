@@ -2,7 +2,7 @@
 
 function query(string $query, array $params = null): array
 {
-	$db = "baza";
+	$db = "szkola";
 	$user = "root";
 	$password = "";
 	$host = "localhost";
@@ -22,7 +22,7 @@ function query(string $query, array $params = null): array
 		$query = sprintf($query, ...$params);
 	}
 
-	$conn->set_charset("utf8");
+	mysqli_set_charset($conn, "utf-8");
 
 	$q = $conn->query($query);
 
