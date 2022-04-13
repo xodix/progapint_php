@@ -1,0 +1,27 @@
+main {
+  margin: auto;
+  text-align: center;
+  width: 40%;
+}
+
+table {
+  margin: auto;
+  width: fit-content;
+  flex: 1;
+}
+
+.inline {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+span {
+  flex: 1;
+  font-size: 10em;
+}
+
+label {
+  display: block;
+}

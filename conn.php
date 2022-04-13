@@ -1,6 +1,6 @@
 <?php
 
-function query(string $query, array $params = null): array
+function query(string $query, array $params = null, bool $safe = true): array
 {
 	$db = "baza";
 	$user = "root";
@@ -15,8 +15,10 @@ function query(string $query, array $params = null): array
 	}
 
 	if ($params) {
-		for ($i = 0; $i < count($params); $i++) {
-			$params[$i] = mysqli_escape_string($conn, htmlentities($params[$i]));
+		if ($safe) {
+			for ($i = 0; $i < count($params); $i++) {
+				$params[$i] = mysqli_escape_string($conn, htmlentities($params[$i]));
+			}
 		}
 
 		$query = sprintf($query, ...$params);
@@ -46,5 +48,7 @@ function query(string $query, array $params = null): array
 		}
 
 		return $res;
+	} else {
+		return [];
 	}
 }
